@@ -1,17 +1,19 @@
 ---
 import Link from "./ui/link.astro";
+import { Icon } from "astro-icon";
 ---
 
 <div
   class="bg-black p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center">
   <h2 class="text-white text-4xl md:text-6xl tracking-tight">
-    Build faster websites.
+    Liên hệ với chúng tôi
   </h2>
   <p class="text-slate-400 mt-4 text-lg md:text-xl">
-    Pull content from anywhere and serve it fast with Astro's next-gen island
-    architecture.
+    Liên hệ trực tiếp với chúng tôi để báo giá và lựa chọn sản phẩm phù hợp
   </p>
   <div class="flex mt-5">
-    <Link href="#" style="inverted">Get Started</Link>
+    <Link href="#" style="inverted">
+      <Icon class="text-black w-5 h-5" name="ic:sharp-call" />
+    </Link>
   </div>
 </div>

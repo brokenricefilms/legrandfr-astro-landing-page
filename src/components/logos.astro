@@ -1,16 +1,50 @@
 ---
 // @ts-ignore
-import { Icon } from "astro-icon";
+import lotteLogo from "assets/lotte.png";
+import evnLogo from "assets/evn.png";
+import hillstateHyundaiLogo from "assets/hillstate-hyundai.png";
+import keangnamLogo from "assets/keangnam.jpg";
+import { Picture } from "@astrojs/image/components";
 ---
 
 <div class="mt-24">
-  <h2 class="text-center text-slate-500">Works with your technologies</h2>
+  <h2 class="text-center text-slate-500">Được sự tin tưởng của các đối tác</h2>
   <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
-    <Icon class="h-8 md:h-12" name="simple-icons:react" />
-    <Icon class="h-8 md:h-12" name="simple-icons:svelte" />
-    <Icon class="h-8 md:h-14" name="simple-icons:tailwindcss" />
-    <Icon class="h-8 md:h-16" name="simple-icons:alpinedotjs" />
-    <Icon class="h-8 md:h-12" name="simple-icons:vercel" />
-    <Icon class="h-8 md:h-12" name="simple-icons:astro" />
+    <Picture
+      class="h-8 md:h-12"
+      src={lotteLogo}
+      alt="Lotte"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+    <Picture
+      class="h-8 md:h-12"
+      src={evnLogo}
+      alt="Lotte"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+    <Picture
+      class="h-8 md:h-12"
+      src={hillstateHyundaiLogo}
+      alt="Lotte"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+    <Picture
+      class="h-8 md:h-12"
+      src={keangnamLogo}
+      alt="Lotte"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
   </div>
 </div>
