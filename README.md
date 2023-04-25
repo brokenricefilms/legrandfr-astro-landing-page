@@ -1,1 +1,1 @@
-Thanks to: https://github.com/surjithctly/astroship
+Thanks: https://github.com/surjithctly/astroship
