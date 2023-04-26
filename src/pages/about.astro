@@ -1,11 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import { YouTube } from "@astro-community/astro-embed-youtube";
-import Card from "@components/Card.astro";
 
 // Filter team entries with 'draft: false' & date before current date
 const publishedTeamMembers = await getCollection("team", ({ data }) => {
@@ -53,13 +51,12 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
         Chuyển đổi không gian nơi mọi người gặp gỡ, từ nhà ở đến cửa hàng, bệnh
         viện, trường học, trường đại học, v.v.
       </p>
-      <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-2 gap-16">
-        <Card
-          href="https://zalo.me/84965195077"
-          title="Đinh Công Phúc"
-          body="Sales Team Leader"
-        />
-        <Card href="https://thuanowa.com" title="Thuan Pham" body="Developer" />
+      <div
+        class="bg-black p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center">
+        <h2 class="text-white text-4xl md:text-6xl tracking-tight">
+          Liên hệ Hotline <span class="text-red-400">0965195077</span> để được tư
+          vấn
+        </h2>
       </div>
     </div>
   </Container>
