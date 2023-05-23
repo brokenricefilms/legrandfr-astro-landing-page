@@ -3,7 +3,7 @@ draft: false
 title: "Legrand xuất xứ nước nào? được sản xuất ở đâu?"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-   src: "legrand-factory.jpg",
+   src: "/legrand-factory.jpg",
     alt: "Legrand xuất xứ nước nào? được sản xuất ở đâu?"
 }
 publishDate: "2022-11-07 15:39"

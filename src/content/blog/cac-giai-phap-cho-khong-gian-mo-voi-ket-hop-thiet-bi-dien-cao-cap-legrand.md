@@ -3,7 +3,7 @@ draft: false
 title: " Các giải pháp cho không gian mở với kết hợp thiết bị điện cao cấp Legrand "
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-   src: "office-space.jpeg", alt: " Các giải pháp cho không gian mở với kết hợp thiết bị điện cao cấp Legrand "
+   src: "/office-space.jpeg", alt: " Các giải pháp cho không gian mở với kết hợp thiết bị điện cao cấp Legrand "
 }
 publishDate: "2022-11-07 19:39"
 category: ""
