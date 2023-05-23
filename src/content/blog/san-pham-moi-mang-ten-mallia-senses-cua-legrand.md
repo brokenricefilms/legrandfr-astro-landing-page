@@ -3,7 +3,7 @@ draft: false
 title: "Sản phẩm mới mang tên mallia senses của Legrand"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-   src: "https://ifinfralivestorage.blob.core.windows.net/ifservice/778707/308877/00000000-0000-0000-0000-000000000000/78494.jpg?&fit=crop&w=430&h=240",
+   src: "mallia.jpg",
    alt: "Sản phẩm mới mang tên mallia senses của Legrand"
 }
 publishDate: "2022-11-07 16:39"
