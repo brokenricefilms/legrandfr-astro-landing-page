@@ -5,10 +5,6 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import { YouTube } from "@astro-community/astro-embed-youtube";
 
-// Filter team entries with 'draft: false' & date before current date
-const publishedTeamMembers = await getCollection("team", ({ data }) => {
-  return !data.draft && data.publishDate < new Date();
-});
 ---
 
 <Layout title="Giới thiệu về LegrandFr">
